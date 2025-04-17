@@ -4016,14 +4016,7 @@ name: "Welcome!",
 
 
 
-{
-    name: " Sweet Baby",
-    artist: "Macy Gray  ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/muziek04/Macy Gray Sweet Baby.mp3",
-      timeCategory: "afternoon"
 
-},
 
 
 
@@ -5647,16 +5640,6 @@ timeCategory: "afternoon"
 
 
 
-{
-    name: " On How Life Is",
-    artist: "Macy Gray  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Macy Gray - On how life is.mp3",
-   timeCategory: "evening"
-
-},
-
-
 
 {
     name: "Welcome!",
@@ -6178,15 +6161,6 @@ timeCategory: "afternoon"
 
 
 
-
-{
-     name: " Can You Feel It",
-    artist: "The Jackson Five",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://soulfullforever.netlify.app/The Jacksons - Can You Feel It.mp3",
-  timeCategory: "evening"
-
-},
 
 
 
@@ -7584,7 +7558,14 @@ timeCategory: "evening"
 
 
 
+{
+    name: " Sweet Baby",
+    artist: "Macy Gray  ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/muziek04/Macy Gray Sweet Baby.mp3",
+      timeCategory: "afternoon"
 
+},
 
 
 
@@ -7651,6 +7632,16 @@ timeCategory: "evening"
 
 },
 
+
+
+{
+    name: " On How Life Is",
+    artist: "Macy Gray  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Macy Gray - On how life is.mp3",
+   timeCategory: "evening"
+
+},
 
 
 
@@ -8158,6 +8149,15 @@ name: "Welcome!",
 
 
 
+
+{
+     name: " Can You Feel It",
+    artist: "The Jackson Five",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/The Jacksons - Can You Feel It.mp3",
+  timeCategory: "evening"
+
+},
 
 
 
