@@ -1,5 +1,5 @@
 body {
- background:linear-gradient(280deg,#C29C6D,#C8AD7F,#c6c5c8);
+background:linear-gradient(280deg,#C29C6D,#C8AD7F,#c6c5c8);
   
 }
  
@@ -10,14 +10,20 @@ background-color: black;
 color:Silver;     margin: -19px -19px -20px -19px;  font-family: Arial ,Helvetica,sans-serif; z-index: -200; padding-bottom: 15px; 
 }
 
+
 @font-face{ 
-font-family: myMuss;
-src:url(musicc.TTF);
+font-family: myFont;
+src:url(musicc.ttf);
 }
 
 
 
 
+
+@font-face{ 
+font-family: myMuss;
+src:url(fonts/DISKOTEQUE.ttf);
+}
 
 
 
@@ -44,16 +50,13 @@ margin: auto auto auto auto;
 
 
 
-.sunny  {    width: 90px;  height: 90px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%); transform: rotate(5deg); z-index: -200; display: block; margin: auto auto auto auto;
+.sunny  {    width: 90px;  height: 90px;filter: brightness(105%) saturate(105%) contrast(105%) opacity(70%); transform: rotate(5deg); z-index: -200; display: block; margin: auto auto auto auto;
 }
 
 
 #red   {  color: black; z-index: 50;
 }
 
-.public  {  
-display: none;
-}
 
 .yellow  {
 
@@ -82,10 +85,6 @@ font-weight: italic; display: block; margin: auto auto auto auto;
 
 
 .media  {    width: 120px;  height:120px;filter: brightness(110%) saturate(115%) contrast(110%) opacity(100%); transform: rotate(0deg); z-index: -200; display: block; margin: auto auto auto auto;
-
-
-
-
 }
 
 
@@ -103,7 +102,7 @@ gap: 2px;
 
 .footer  {
 display: flex;  z-index:100;
-grid-column: span 2;
+grid-column: span 2;  
 }
 
 .item  {  
@@ -115,9 +114,18 @@ text-align: center;
 
 
 #luister {   width:100px; height: 30px; border-radius: 5px;
-   z-index: -300; float: right; margin-left: 30px; transform:rotate(1deg);
+   z-index: -100; float: right; margin-left: 30px; transform:rotate(1deg);
  filter:brightness(102%) saturation(105%) contrast(120%) opacity(55%); 
 }
+
+
+#geeks {   width:90px; height: 90px; 
+   z-index: -300;  margin-left: 40px; transform:rotate(-10deg);
+ filter:brightness(105%) saturation(105%) contrast(110%) opacity(75%); 
+}
+
+
+
 
 
 #bull { 
@@ -137,24 +145,39 @@ h5  {  font-size: 20px; color: black; font-family: Arial ,Helvetica,sans-serif; 
 }
 
 
-
 h2  {  font-size: 25px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: 0; background: linear-gradient(90deg,#FFE5EC,#f9f7f4,#FFC2D1);border-radius:20px; margin:5px; padding:25px; border:solid 1px black;font-optical-sizing: auto;
 
 
 }
 
 
-p {  font-size: 30px; color: black;  text-align: center; z-index: -200; font-style:italic;font-family: myMuss;background-color: #D4BA99; border-radius:5px; 
+
+
+
+
+
+
+p {  
+font-family: myFont; font-size: 30px; font-weight:600; z-index: 200; background-color: #D4BA99;text-align: center; border-radius:5px;
 
 
 }
+
+
+
+.inhoud meer {  
+font-family: myFont; font-size: 30px; font-weight:600; z-index: 200; background-color: #FFCC99;text-align: center; border-radius:20px; padding: 25px;padding: 5px 0 5px 0;
+}
+
+
+
 
 
 .now-playing   {
 display: none;
 }
 
-#moon  {    width: 75px;  height: 75px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(60%); transform: rotate(5deg); z-index: -200;display: block; margin:  auto auto auto auto;
+.moon  {    width: 75px;  height: 75px;filter: brightness(110%) saturate(110%) contrast(110%) opacity(60%); transform: rotate(5deg); z-index: -200;display: block; margin:  auto auto auto auto;
 }
 
 
@@ -170,7 +193,7 @@ display: none;
 
 
 #mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);
-   z-index: -300; float: right; margin-top: 50px; 
+   z-index: -500; float: right; margin-top: 50px; 
  filter:brightness(102%) saturation(105%) contrast(120%) opacity(55%); margin-left: -80px;
 }
 
@@ -248,18 +271,26 @@ margin-bottom: 0px; margin-top: -60px; margin-right: 10px;
 
 }
 
-#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(-1deg); z-index: 200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px; border-radius:15px; background : linear-gradient(90deg,black,#050202,#060000);
+#classic  {    width: 130px;  height: 130px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(60%); transform: rotate(3deg); z-index: -200; margin-top: -24px;margin-bottom: -36px;margin-left: 22px;  border-radius:15px; background : linear-gradient(90deg,black,#050202,#060000);
 border: solid 1px #00CC00;
 
 
 }
 
-#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(60%); transform: rotate(-3deg); z-index: -200; margin: auto auto auto auto; display: block;  border-radius:15px; border: solid 1px #FF0000;background : linear-gradient(90deg,black,#050202,#060000);
+#dance  {    width: 255px;  height: 150px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%); transform: rotate(1deg);  margin: auto auto auto auto; display: block; z-index: 200; border-radius:15px; border: solid 1px #FF0000; background : linear-gradient(90deg,black,#050202,#060000);
+animation: blinker 1s step-start infinite;
 
 }
 
-#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(50%); transform: rotate(3deg); z-index: -200; float : right; border-radius:15px; margin-right: 20px; background : linear-gradient(90deg,black,#050202,#060000);
-border: solid 1px #0099FF;
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#rock   {    width: 145px;  height: 145px;filter: brightness(130%) saturate(115%) contrast(125%) opacity(80%) grayscale(50%); transform: rotate(-1deg); z-index: -200; float : right; border-radius:15px; margin-right: 20px; background : linear-gradient(90deg,black,#050202,#060000);
+ border: solid 1px #0099FF;
 }
  .licht  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(40deg); z-index: -200; margin: -38px auto 10px  auto; display: block; border-radius: 5px;
 }
@@ -273,56 +304,45 @@ border: solid 1px #0099FF;
 
 
 .one {  
-float: left; margin-left: 20px; z-index: -210; font-size: 20px; color:crimson; background-color: black; border-radius: 3px; padding: 5px 5px 0px 5px; 
+float: left; margin-left: 20px; z-index: 200; font-size: 20px; color:crimson; background-color: black; border-radius: 3px; padding: 5px 5px 0px 5px; 
 }
 
 .two  {  
-display: block; margin: auto auto auto auto; z-index: -210;font-size: 20px; color:crimson;
+display: block; margin: auto auto auto auto; z-index: -210;font-size: 28px;color:black;
+
 }
 
 .three {  
-float: right; margin-right: 20px;z-index: -210;font-size: 20px;color:crimson;border-radius: 3px;background-color: black;padding: 5px 5px 0px 5px;
-
+float: right; margin-right: 20px;z-index: -210;font-size: 20px;color:crimson; border-radius: 3px;background-color: black;padding: 5px 5px 0px 5px;
 }
 
-#studio {   filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 145px; margin-right: -5px; display: block; margin: auto auto auto auto ; border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  
-}
-
-
-.balk  {  border: solid 4px #FFCC99; z-index: -400; 
+#studio  {  display: block; margin: auto auto auto auto;     filter:brightness(100%) saturation(100%) contrast(100%) opacity(75%);width: 265px; height: 175px; margin-right: -5px;  border: solid #FF0000 1px; z-index: 200; border-radius: 5px;  display: block; margin: auto auto auto auto;  
 }
 
 
-.biels  {  border: solid 10px #00CCFF;  z-index: -500; 
+
+
+
+.balk  {  border: solid 4px #FFCC99;  z-index: -400;
 }
 
-#plank {  border: solid 9px #00CCFF;  z-index: -500; 
+
+.streep  {  border: solid 9px #00CCFF;  z-index: -500; 
+}
+
+#strip  {  border: solid 10px #00CCFF;  z-index: -500; 
 }
 
 
-#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(75%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
+
+#mid  {    width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(75%); transform: rotate(14deg); z-index: -100; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
 }
 
 h6  {  font-size: 20px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; margin-bottom: 9px;
 
 }
 
-
-h3  {  font-size: 25px; color: white; font-family: Arial ,Helvetica,sans-serif; text-align: center; z-index: -200; 
-
-animation: blinker 1s step-start infinite;
-
-}
-
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
-
-#ship  {    width: 80px;  height: 60px; filter: brightness(105%) saturate(105%) contrast(105%) opacity(55%); transform: rotate(0deg); z-index: 1; margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white; z-index:-600;
+#ship  {    width: 80px;  height: 60px; filter: brightness(105%) saturate(105%) contrast(105%) opacity(55%); transform: rotate(0deg); margin-bottom: -22px; margin-right: 8px;margin-top: -11px; color: white;z-index:-600; 
 }
 
 
@@ -330,20 +350,23 @@ animation: blinker 1s step-start infinite;
 
 
 #marquee {
-   display:block; 
-
+  display:block; 
+ 
   width: 250px;border-radius: 5px;
   margin: 0 auto -17px;
-  overflow: hidden;
+  overflow: hidden;font-size:15px;
   white-space: nowrap;
-height: 40px;
+height: 40px; 
 
 }
+
+
+
 #marquee span {
   display: inline-block; 
-  font-size: 16px;
-  position: relative;
-  left: 100%; z-index:-200;
+  font-size: 15px;font-family: Arial ,Helvetica,sans-serif;
+  position: relative; color: black;
+  left: 100%;
   animation: marquee 8s linear infinite;
 
 }
@@ -376,37 +399,44 @@ height: 40px;
 }
 
 
-#sol {
 
-height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(75%); z-index:200;
+
+
+
+
+
+
+#sun {
+
+height: 80px; width: 85px; filter: brightness(100%) saturate(110%) contrast(110%) opacity(75%); z-index: 200; transform:rotate(0deg);
 }
 
 
 #black {  
- z-index: -300; border-radius:5px;
+z-index: -300;  border-radius: 5px;
+}
+
+a { color: black;
+}
+
+#first { width: 37px; height: 39px;filter: brightness(90%) saturate(110%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg); border-radius:3px;
 }
 
 
-a {  
-color: black;
-}
-
-#first { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: 200; transform:rotate(0deg); 
-}
 
 
 
-#pick { width: 20px; height:25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: -400; transform:rotate(0deg);
+
+#pick { width: 20px; height:25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg);
 }
 
 
-#third { width: 37px; height:43px;filter: brightness(90%) saturate(110%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg); border-radius:3px;
+#third { width: 20px; height: 25px;filter: brightness(105%) saturate(105%) contrast(100%) opacity(78%); z-index: -200; transform:rotate(0deg);
 }
 
 
-#dio  {     width: 35px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
+#freq  {     width: 35px;  height: 30px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(70%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
 }
-
 
 
 
@@ -421,7 +451,7 @@ color: black;
         border-radius: 3px;
         cursor: pointer;
 filter:opacity(75%);
-    z-index: -200;
+   z-index: -200;
     }
 
     .btn span {
@@ -437,41 +467,27 @@ filter:opacity(75%);
 
 
 
+#foot  { color: black;
+}
+
+
+
 
 
 .info {
- font-family: Candara;background : linear-gradient(90deg,#00CCFF,#66CCFF); color: white; 
-border-radius: 5px; z-index: -500; width: 51px; height: 34px; font-size: 17px; display:block; margin: auto auto auto auto; z-index:-400;
-
-
-
-
+ 
+background : linear-gradient(90deg,#00CCFF,#66CCFF); color: white; 
+border-radius: 5px; z-index: -500; width: 51px; height: 34px; font-size: 17px; display:block; margin: auto auto auto auto; z-index:-300;
 
 
 }
 
 
-
-#lintje { color: black; font-weight: bold;
-
+#lijntje  {  color: black; font-weight: bold;
 
 }
 
 
-.blinking {
-  animation: blinker 1s linear infinite;
-}
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
-
-#geeks {   width:90px; height: 90px; 
-   z-index: -300;  margin-left: 40px; transform:rotate(-10deg);
- filter:brightness(105%) saturation(105%) contrast(110%) opacity(75%); 
-}
 
 
