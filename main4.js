@@ -6429,114 +6429,6 @@ timeCategory: "evening-late"
 
 
 
-{
-     name: "  Freak Of Nature ",
-    artist: "Amir",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://soulfullforever.netlify.app/Amir - Freak of Nature.mp3",
-  timeCategory: "evening"
-
-},
-
-
-
-
-
-
-
-
-
-
-
-
-{
-     name: "The Boss",
-    artist: "Diana Ross ",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://soulfullforever.netlify.app/Diana Ross - The Boss.mp3",
-   timeCategory: "evening"
-
-},
-
-
-
-
-
-
-
-
-{
-    name: "Loving You",
-    artist: "Michael Jackson",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies01.netlify.app/Loving You - Michael Jackson.mp3",
-  
-
-  timeCategory: "evening"
-
-},
-
-
-{
-    name: " Let Me Show You ",
-    artist: " The Jacksons",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies02.netlify.app/Jacksons - Let me show you (Ruud Remix).mp3",
-  timeCategory: "evening"
-
-},
-
-{
-    name: "Best Of",
-    artist: "Sunny Jazz   ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/jingles/jazz jingle.mp3",
-  timeCategory: "evening"
-
-},
-
-
-
-
-
-
-
-
-{
-     name: " Lounge",
-    artist: "Avalon",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/avalon/Avalon1- Lounge.mp3",
-   timeCategory: "evening"
-
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -8263,6 +8155,114 @@ name: "Welcome!",
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "  Freak Of Nature ",
+    artist: "Amir",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Amir - Freak of Nature.mp3",
+  timeCategory: "evening"
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     name: "The Boss",
+    artist: "Diana Ross ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://soulfullforever.netlify.app/Diana Ross - The Boss.mp3",
+   timeCategory: "evening"
+
+},
+
+
+
+
+
+
+
+
+{
+    name: "Loving You",
+    artist: "Michael Jackson",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies01.netlify.app/Loving You - Michael Jackson.mp3",
+  
+
+  timeCategory: "evening"
+
+},
+
+
+{
+    name: " Let Me Show You ",
+    artist: " The Jacksons",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies02.netlify.app/Jacksons - Let me show you (Ruud Remix).mp3",
+  timeCategory: "evening"
+
+},
+
+{
+    name: "Best Of",
+    artist: "Sunny Jazz   ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/jingles/jazz jingle.mp3",
+  timeCategory: "evening"
+
+},
+
+
+
+
+
+
+
+
+{
+     name: " Lounge",
+    artist: "Avalon",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/avalon/Avalon1- Lounge.mp3",
+   timeCategory: "evening"
+
+},
 
 
 
