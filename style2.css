@@ -24,6 +24,7 @@ background:linear-gradient(90deg,#000066,#3399FF,#66CCFF);
 }
  
 
+
 @font-face{ 
 font-family: myMuss;
 src:url(fonts/DISKOTEQUE.ttf);
@@ -47,44 +48,56 @@ src:url(arialbi.ttf);
 
 
 
-p {  
-font-family: myPar; font-size: 15px; font-weight:600; z-index: -200;
-}
-
-
-
-
-
-details {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 25px;
-}
- 
-.track-art {
- display: none;
-}
  
 
- 
 .track-name {
-  z-index: 0; padding: 12px 15px 12px 15px; color:#ffecc7;
-background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); font-family: myMuss;border: solid 1px #ffecc7; border-radius:5px;font-size:30px;text-align:center; 
+  z-index: 0; padding: 12px 15px 12px 15px; 
+margin-bottom: 9px;background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0); font-family: myMuss;border: solid 1px black; border-radius:5px;font-size:30px; color: #FF0000;
+transition: all 0.3s ease-in-out;
 
 
+font-weight:300;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
  
  }
  
+
+.track-name:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #FFCCCC, #FFD6D6, #FFE0E0);
+}
+
+
+
+
+
 .track-artist {
-  font-size: 1.4rem; z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333);border: solid 1px #ffecc7;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px; color:#ffecc7;
+  z-index: 0; padding: 12px 15px 12px 15px ; background:linear-gradient(90deg,#CCCCCC,#d6d6d6,#e0e0e0);border: solid 1px black;  margin-top: -11px;  font-family: myMuss; border-radius:5px; font-size:30px;font-weight:300;
+transition: all 0.3s ease-in-out;
 
+color: #FF0000;
 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
 
 }
 
- 
+
+.track-artist:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #FFCCCC, #FFD6D6, #FFE0E0);
+}
+
+
+
+
+
+
+
+
+
+
 /* Using flex with the row direction to
    align items in a horizontal direction */
 .buttons {
@@ -97,40 +110,43 @@ background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); font-family: myMuss;b
 .prev-track,
 .next-track {
   padding: 25px;
-  opacity: 1.0;
- 
+  opacity:0.8 ;
+ cursor: pointer;
+
   /* Smoothly transition the opacity */
   transition: opacity .2s;
+
+
 }
  
 /* Change the opacity when mouse is hovered */
 .playpause-track:hover,
 .prev-track:hover,
 .next-track:hover {
-  opacity: 0.8;
+  opacity:1.0 ;
 }
  
 /* Define the slider width so that it scales properly */
 .slider_container {
   width: 75%;
   max-width: 400px;
-  display: flex;
+  display: flex; 
   justify-content: center;
-  align-items: center; 
- }
+  align-items: center;
+}
+ 
 /* Modify the appearance of the slider */
 .seek_slider, .volume_slider {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   height: 5px;
-  background: #0a0a0a;
+ background:linear-gradient(45deg,#0a0a0a,black,#020202);
+
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
-
-
-
+  
 }
  
 /* Modify the appearance of the slider thumb */
@@ -141,7 +157,8 @@ background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); font-family: myMuss;b
   appearance: none;
   width: 15px;
   height: 15px;
-  background: #808080;
+ background-color:#808080;
+
   cursor: pointer;
   border-radius: 50%;
 }
@@ -153,7 +170,7 @@ background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); font-family: myMuss;b
 }
  
 .seek_slider {
-  width: 60%;color: #060000; z-index:0;
+  width: 60%; color: #060000;z-index:-300;
 }
  
 .volume_slider {
@@ -161,19 +178,13 @@ background:linear-gradient(90deg,#CC3333,#FF6666,#CC3333); font-family: myMuss;b
 }
  
 .current-time,
-.total-duration { 
-box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
-color:black;z-index:0; 
-
-
-
-  padding: 10px;  font-family: myNum; font-weight: 600;
+.total-duration {   font-family: myMuss; z-index:0; border: solid 1px black; border-radius: 5px;background:linear-gradient(180deg,#CCCCCC,#d6d6d6,#e0e0e0);
+  padding: 5px 10px 5px 10px;  font-weight:200;box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
 }
  
 i.fa-volume-down,
 i.fa-volume-up {
 filter: brightness(110%)saturation(105%) contrast(105%); 
-
   padding: 10px;
 }
  
@@ -185,7 +196,6 @@ i.fa-step-forward,
 i.fa-step-backward {
   cursor: pointer;
 }
-
 .header {
 background-color: black; 
  
