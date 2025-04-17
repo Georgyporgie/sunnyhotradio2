@@ -10,10 +10,9 @@
 
   gtag('config', 'G-HGPPL3SXDS');
 </script>
-
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <title> Sunny Hotradio</title>
-
+ 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -28,7 +27,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <style type="text/css">
     
- <style>
+ 
+
+
+
+
+
+
+
+
+
+<style>
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -65,7 +74,7 @@ body {
 
 <!-- Top Navigation Menu -->
 <div class="topnav" id="myHeader" >
-  <h1 class="header"> <a href="#home" class="active"> <img id= "logo"><img id= "dio"></h1> 
+  <h1 class="header"> <a href="#home" class="active"> <img id= "logo"><img id= "freq"></h1> 
  
 <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
@@ -76,8 +85,9 @@ body {
     <a href="sign up.html">Sign up</a>
 
 
-
 </div>
+
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
   <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
     <div class="btn">
         <span class="fas fa-bars"></span>
@@ -85,10 +95,16 @@ body {
   </a>
 </div>
 
+
+
 </head>
 
-
 <body>
+
+
+
+
+
 
 
  <div>
@@ -98,42 +114,47 @@ body {
 <br>
 <br>
 <br>
-<h2><strong>WELCOME TO SUNNY HOTRADIO 24/7</strong>
-
-<br><img id="sol">
-<br>click on your favorite station with <em><u id="lintje">high quality</em></u> sound below</h2>
-</div>
 <br>
+<h2><strong>WELCOME TO SUNNY HOTRADIO 24/7</strong>
+<br>
+<img id= "sun">
+
+<br>click on your favorite station with <em><u id="lijntje">high quality</em></u> sound below</h2>
+</div>
+
+
+
+<br>
+
 
 <div>
-<h5 id="plank"></h5>
+<h5 class="streep"></h5>
 </div>
 <br>
 <br>
 <br>
 <br>
-
-
 <div>
 <h5 class="balk"></h5>
 </div>
 
-<div>
-<h5 class="one"><img id= "first"></h5>
 <br>
-<a href= "https://sunnyhotradio2.netlify.app/jazz01.html"><img id= "classic"></a>
+<br>
 
+<div>
+<h5 class="two"><img id= "first"></h5>
 <br>
-<br>
-<br>
+
+
+<a href= "https://sunnyhotradio.com/med02.html"><img id= "dance"></a>
+
+
+
+
+
   
-<br>
 
-<div>
-
-  <p class="jazzy less">A beautiful mix of Soul & Classicjazz songs<br> to help you through the day!</p>
-<br>
-<br>
+  <p>A beautiful mix of new Dance songs<br> and older Dance & Disco classics!</p>
 <br>
 </div>
 <div>
@@ -143,71 +164,79 @@ body {
 <br>
 <div>
 <h5 class="three"><img id= "pick"  ></h5>
-<a href= "https://sunnyrockradio.com"><img id= "rock"></a>
-
+<a href= "https://sunnyrockradio.com/index.html"><img id= "rock"></a>
 <br>
 <br>
 <br>
-<br><br>
 <br>
 <br>
-
 <br>
 <br>
-
+<br>
+<br>
+<br>
 
   <button class="info" onclick="update2()">info</button>
 
-  <p class="inhou meer"></p>
-
+   <p class="inhoud meer"></p>
 </div>
-<br>
-<br>
+
+
 
 <br>
 <br>
 
+
+
+
+
+
+
+<br>
 
 
 <div>
+<h5 class="balk"></h5>
+</div>
+<br>
+<div>
 
+
+<h5 class="one"><img id= "third"  ></h5>
+<a href= "https://sunnyjazzradio.com"><img id= "classic"></a>
+<br>
+<br>
+<br>
+<br>
+  <br>
+<button class="info" onclick="update3()">info</button>
+
+  <p class="jazzex minder"></p>
+<br>
+<br>
+</div>
+
+
+<div>
 <h5 class="balk"></h5>
 </div>
-<br>
-<div>
 
-
-<h5 class="two"><img id= "third"  ></h5>
-<br>
-<a href= "https://sunnyhotradio.com"><img id= "dance"></a>
-<br>
-<br>
-
-  <button class="info" onclick="update()">info</button>
-
-  <p class="conten more"></p>
-
-</div>
-
-
-
-</div>
-<br>
-<br>
-<br>
-<div>
-<h5 class="balk"></h5>
-
-</div>
 
 
 <br>
 
-<br>
+
+<audio  id="pub"  autoplay loop>
+ <source src="" type="audio/mpeg" />
+   <source src="" type="audio/wav" />
+</audio>
+
+<br><br>
 
 
 <div>
-<h5 id="marquee"> <span id= "red"><strong>The Sunny Jazzradio Studios</strong></span></h5>
+<h5 id="marquee"> <span id= "red">The Sunny Danceradio Studios</h5>
+
 
 <img id= "studio">
 </div>
@@ -215,8 +244,11 @@ body {
 <br>
 <br>
 
+
+
+
 <div>
-<h5 class="biels"></h5>
+<h5 id="strip"></h5>
 </div>
 
 
@@ -228,6 +260,12 @@ body {
 
 
 <br>
+
+
+
+
+
+
 <a href= "https://mycariere.netlify.app">
 <img id="bull">
 PORTFOLIO<br>
@@ -244,7 +282,7 @@ The Netherlands<br>
 
 
 <a href= "https://www.luisterrijk.nl/">
-<img id= "luister">
+<img id="luister">
 </a>
 <br>
 <br>
@@ -267,7 +305,6 @@ The Netherlands<br>
 </a>
 
 </div>
-
 <br>
 <br>
 <br>
@@ -295,12 +332,25 @@ The Netherlands<br>
 <br>
 <br>
 
-
 <div>
 <IFRAME id= "black" SRC="https://shiphorn.netlify.app/footer" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0  WIDTH=340 HEIGHT=255></IFRAME>
 </div>
+
+
+
 <script src= "main.js"> </script>
 
+
+
+
+
+
+
+
+
+<script>
+document.getElementById("pub").setAttribute('src', 'https://sunnydanceoldies08.netlify.app/Sunny radio jingles.mp3');
+</script>
 
 <script>
 //Get our img element by using document.getElementById
@@ -315,8 +365,9 @@ img.src = 'images/Dance radio55.png';
 var img = document.getElementById("classic");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/jazz.png';
+img.src = 'images/jazz1.png';
 </script>
+
 
 <script>
 //Get our img element by using document.getElementById
@@ -325,7 +376,6 @@ var img = document.getElementById("rock");
 //Set the src property of our element to the new image URL
 img.src = 'images/Rock1.png';
 </script>
-
 
 <script>
 //Get our img element by using document.getElementById
@@ -336,17 +386,24 @@ img.src = 'images/Sunny Shipxxx.png';
 </script>
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("studio");
 
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny Hotradio studios2.png';
+</script>
 
 
 
 <script>
 //Get our img element by using document.getElementById
-var img = document.getElementById("logo");
+var img = document.getElementById("luister");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/Sunny hotradio2.png';
+img.src = 'images/luisterrijk.png';
 </script>
+
 
 
 <script>
@@ -356,6 +413,43 @@ var img = document.getElementById("geeks");
 //Set the src property of our element to the new image URL
 img.src = 'images/GeeksforGeeks.png';
 </script>
+
+
+
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("kvms");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/kvms.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("mimo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/mimo.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("bull");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/bullseye-59-376797.png';
+</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("logo");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Sunny hotradio2.png';
+</script>
+
 
 
 <script>
@@ -368,67 +462,20 @@ img.src = 'images/red star3.png';
 
 
 
-
-
 <script>
 //Get our img element by using document.getElementById
-var img = document.getElementById("studio");
+var img = document.getElementById("sun");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/Miss June.gif';
+img.src = 'images/Sunny3.png';
 </script>
-
-
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("bull");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/bullseye 59 376797.png';
-</script>
-
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("luister");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/luisterrijk.png';
-</script>
-
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("kvms");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/kvms.png';
-</script>
-
-
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("mimo");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/mimo.png';
-</script>
-
-
-<script>
-//Get our img element by using document.getElementById
-var img = document.getElementById("sol");
-
-//Set the src property of our element to the new image URL
-img.src = 'images/sunny2.png';
-</script>
-
-
 
 <script>
 //Get our img element by using document.getElementById
 var img = document.getElementById("first");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/oncy.png';
+img.src = 'images/extran 1.png';
 </script>
 
 
@@ -447,34 +494,19 @@ img.src = 'images/twocy.png';
 var img = document.getElementById("third");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/extran 3.png';
+img.src = 'images/threecy.png';
 </script>
-
 
 
 
 <script>
 //Get our img element by using document.getElementById
-var img = document.getElementById("dio");
+var img = document.getElementById("freq");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/connection.gif';
+img.src = 'images/connection.png';
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 <script>
 window.onscroll = function() {myFunction()};
@@ -490,5 +522,8 @@ function myFunction() {
   }
 }
 </script>
+
+
+
 </body>
 </html>
