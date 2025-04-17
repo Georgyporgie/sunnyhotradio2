@@ -148,16 +148,6 @@ let trackList = [
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
-  timeCategory: "evening-late"
-
-
-},
-
 
 
 
