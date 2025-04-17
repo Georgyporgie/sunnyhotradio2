@@ -5789,14 +5789,7 @@ timeCategory: "afternoon"
 
 
 
-{
-    name: "Welcome!",
-    artist: "Listen Live Sunny Jazzradio ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/discjockeys/Female dj3.mp3",
-   timeCategory: "evening-late"
 
-  },
 
 
 
