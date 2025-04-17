@@ -1,7 +1,9 @@
 body {
- background:linear-gradient(90deg,#FFCC00,#CC9900,#993300);
-  /* Smoothly transition the background color  */
- 
+  
+background:linear-gradient(90deg,#000066,#3399FF,#66CCFF); 
+  /* Smoothly transition the background color */
+  transition: background-color .5s;
+
 }
  
 /* Using flex with the column direction to
@@ -11,37 +13,35 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center; margin-top: -200px; 
-
-
-
+  justify-content: center; margin-top: -90px;
+ }
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
 }
-
+ 
 
 @font-face{ 
 font-family: myMuss;
-src:url(musicc.ttf);
+src:url(fonts/DISKOTEQUE.ttf);
 }
-
-
-@font-face{ 
-font-family: myPar;
-src:url(para.ttf);
-}
-
-
 @font-face{ 
 font-family: myEvent;
-src:url(BROADW.ttf);
+src:url(fonts/BROADW.ttf);
 }
 
 @font-face{ 
-font-family: myNum;
-src:url(ITCEDSCR.ttf);
+font-family: myLed;
+src:url(28SegmentLedDisplayregular-qyMV.ttf);
 }
 
-
-
+@font-face{ 
+font-family: myArial;
+src:url(arialbi.ttf);
+}
 
 
 
@@ -314,7 +314,7 @@ z-index: -100;
 }
 
 .inch  {
-color:#FF0000; z-index: 0;  background-color: beige;padding: 15px 15px 15px 15px; text-align: center;font-size: 25px;font-weight: bold; border: solid 1px #FF0000; border-radius: 5px;
+color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px; font-weight: 900; border: solid 1px #FF0000; border-radius: 5px;
 }
 
 
@@ -510,8 +510,10 @@ z-index: -200;  margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006
 .new {  color: #009999; font-size: 15px; font-family: Arial ,Helvetica,sans-serif; font-style: italic;
 }
 
-.arrow {   background: linear-gradient(90deg,#E4E4A1,#eaeab4,#E4E4A1); z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
+   .arrow {   background: linear-gradient(90deg,#E4E4A1,#eaeab4,#E4E4A1); z-index: -300; margin-left: -10px; margin-right: -10px; border: solid 1px #FF0000;
 }
+
+
 
 .high  {  text-decoration: overline  underline ; color: #990066;
 }
@@ -550,7 +552,7 @@ animation: blinker 1s step-start infinite;
 #dwarf {    width: 30px;  height: 30px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(60%); transform: rotate(deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
 }
 
-#myImage  {    filter:brightness(100%) saturation(100%) contrast(1%) opacity(75%) ;width: 255px; height: 135px; margin-right: -5px; display: block; margin: auto auto -41px auto ;   filter :grayscale(5%); border: solid 4px #CCCCCC; z-index:0; border-radius: 10px;
+#myImage  {    display: none;
 }
 
 #events {
@@ -608,7 +610,7 @@ animation: blinker 0.5s step-start infinite;
 
 
 #time  {
-color: black; z-index: 0; text-align: center;  background-color: beige;padding: 15px 15px 15px 15px;font-size: 25px; font-weight: bold; border: solid 1px #FF0000;  border-radius: 5px;
+color: #FF0000; z-index: 0; text-align: center; font-family: Arial ,Helvetica,sans-serif; background:linear-gradient(45deg,#0033FF,#006666,#003399); padding: 15px 15px 15px 15px;font-size: 25px; font-weight: 900; border: solid 1px #FF0000; border-radius: 5px;
 }
 
 

@@ -148,19 +148,6 @@ let trackList = [
 
 
 
-{
-     name: "Welcome!",
-    artist: "Listen Live Sunny Dance Radio",
-    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/jingles/Sunny radio jingle1.mp3",
-  timeCategory: "evening-late"
-
-
-},
-
-
-
-
 
 
 
@@ -8988,7 +8975,7 @@ function playTrack() {
 
 // Function to display the first 20 tracks in the <ul> excluding 'sunny' tracks
 function displayTrackList() {
-  const trackListElement = document.getElementById('track-list');
+  const trackListElement = document.getElementById('track-list-container');
   trackListElement.innerHTML = '';
 
   // Limit the number of tracks to 20
