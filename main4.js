@@ -5596,18 +5596,6 @@ timeCategory: "afternoon"
 
 
 
-
-{
-    name: " On How Life Is",
-    artist: "Macy Gray  ",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "https://sunnydanceoldies03.netlify.app/Macy Gray - On how life is.mp3",
-   timeCategory: "evening"
-
-},
-
-
-
 {
     name: "Welcome!",
     artist: "Listen Live Sunny Jazzradio ",
