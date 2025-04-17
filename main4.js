@@ -154,6 +154,56 @@ let trackList = [
 
 
 
+{
+    name: " Big Fun",
+    artist: "Inner City  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
+  timeCategory: "evening-late"
+
+
+
+},
+
+
+
+
+{
+    name: "  Thinkin' about your love",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  timeCategory: "evening-late"
+
+
+},
+
+
+
+
+
+
+
+{
+    name: " Higher State Of Consciousness",
+    artist: "Josh Wink  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Josh Wink - Higher state of consciousness.mp3",
+  
+timeCategory: "evening-late"
+
+},
+
+
+{
+    name: " Like I like It ",
+    artist: " Aurra ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
+  timeCategory: "evening-late"
+
+
+},
 
 {
     name: " 19 ",
@@ -5596,6 +5646,18 @@ timeCategory: "afternoon"
 
 
 
+
+{
+    name: " On How Life Is",
+    artist: "Macy Gray  ",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies03.netlify.app/Macy Gray - On how life is.mp3",
+   timeCategory: "evening"
+
+},
+
+
+
 {
     name: "Welcome!",
     artist: "Listen Live Sunny Jazzradio ",
@@ -5777,7 +5839,14 @@ timeCategory: "afternoon"
 
 
 
+{
+    name: "Welcome!",
+    artist: "Listen Live Sunny Jazzradio ",
+    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
+    path: "muziek/discjockeys/Female dj3.mp3",
+   timeCategory: "evening-late"
 
+  },
 
 
 
@@ -6352,19 +6421,6 @@ timeCategory: "evening-late"
 
 
 
-
-
-
-
-{
-
-    name: " Antes Que Esqueca",
-    artist: "Azymuth ",
-    image: "https://i.ibb.co/nMW5jgc/jazzdivas.png",
-    path: "muziek/latin/Azymuth - Antes que esqueca.mp3",
- timeCategory: "evening"
-
-},
 
 
 
