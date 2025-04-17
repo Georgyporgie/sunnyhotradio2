@@ -151,12 +151,66 @@ let trackList = [
 
 
 
+
+
+
+{
+    name: " Big Fun",
+    artist: "Inner City  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies05.netlify.app/Inner City - Big Fun.mp3",
+  timeCategory: "evening-late"
+
+
+
+},
+
+
+
+
+{
+    name: "  Thinkin' about your love",
+    artist: "Skipworth & Turner ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Skipworth & Turner - Thinkin' about your love.mp3",
+  timeCategory: "evening-late"
+
+
+},
+
+
+
+
+
+
+
+{
+    name: " Higher State Of Consciousness",
+    artist: "Josh Wink  ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Josh Wink - Higher state of consciousness.mp3",
+  
+timeCategory: "evening-late"
+
+},
+
+
+{
+    name: " Like I like It ",
+    artist: " Aurra ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnylounge01.netlify.app/Aurra - Like I like It.mp3",
+  timeCategory: "evening-late"
+
+
+},
+
 {
     name: " 19 ",
     artist: " Paul Hardcastle ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
     path: "https://sunnylounge01.netlify.app/19 - Paul Hardcastle.mp3",
-    timeCategory: "evening-late"
+  
 
 
 },
