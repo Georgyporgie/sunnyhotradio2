@@ -28,20 +28,25 @@ function displayMessage() {
 
 
 
-// Function to get the current time category
+
 function getCurrentTimeCategory() {
   const currentHour = new Date().getHours();
-  if (currentHour >= 5 && currentHour < 12) {
+  if (currentHour >= 9 && currentHour < 12) {
+    return "morning"; // Corrected order
+  } else if (currentHour >= 12 && currentHour < 18) {
     return "afternoon";
-  } else if (currentHour >= 12 && currentHour < 17) {
-    return "morning";
-  } 
-else if (currentHour >= 17 && currentHour < 21) {
+  } else if (currentHour >= 18 && currentHour < 21) {
     return "evening-late";
-  } 
 
-else {
-    return "evening";
+
+
+
+} else if ((currentHour >= 21 && currentHour <= 23) || (currentHour >= 0 && currentHour < 3)) {
+    return "evening"; // Fix for wrapping around midnight
+  } else if (currentHour >= 3 && currentHour < 7) {
+    return "jingle-time";
+  } else {
+    return "evening"; // Any remaining hours fit here
   }
 }
 
@@ -867,6 +872,15 @@ let trackList = [
 
 
 
+{
+    name: "  Jingles",
+    artist: "Sunny ",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "https://sunnydanceoldies08.netlify.app/Sunny radio jingles.mp3",
+  
+ timeCategory: "jingle-time"
+
+},
 
 
 
