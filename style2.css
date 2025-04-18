@@ -1,7 +1,6 @@
 body {
   
-  
-background:linear-gradient(90deg,#000066,#3399FF,#66CCFF); 
+background: linear-gradient(to bottom, #4169e1, #dc143c, #ffa07a);
   /* Smoothly transition the background color */
   transition: background-color .5s;
 
@@ -456,12 +455,22 @@ margin-top: -70px; margin-right: 7px;
 
 }
 
-#dance  {
 
-width: 350px;  height: 280px; display: block; margin: auto auto auto auto; border-radius: 40px; 
-filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%) grayscale(55%); transform: rotate(0deg);z-index: -200; border: solid #FF99FF 1px;
 
+#travolta{
+  
+  /* Used if the image is unavailable */
+/* You must set a specified height */
+ 
+
+
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200; border-radius:10px;
+width: 355px; height: 217px;
 }
+
 
 
 
@@ -502,7 +511,7 @@ height: 200px; width: 300px; display: block; margin: auto auto auto auto; z-inde
 
 
 
-#track-list {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
+#track-list-container {  font-size: 15px; color: #FF0000; font-family: Arial ,Helvetica,sans-serif;
 z-index: -200;  margin-left: 0px ; background:linear-gradient(45deg,#0033FF,#006666,#003399);     border-radius: 20px;  border: solid 3px #FF0000; font-weight:800;font-optical-sizing: auto; padding: -5px;
 }
 
@@ -563,7 +572,7 @@ animation: blinker 1s step-start infinite;
 #dwarf {    width: 30px;  height: 30px;filter: brightness(115%) saturate(115%) contrast(115%) opacity(60%); transform: rotate(deg); z-index: -200;  border-radius: 5px; float: left; margin-left: 0px;
 }
 
-#myImage  {   display:none; 
+#myImage  {    display: none;
 }
 
 #events {
@@ -673,10 +682,10 @@ margin-top: -112px;   margin-right:7px; height: 45px; width: 50px;
 } 
 
 
-#dion  {     width: 25px;  height: 25px;filter: brightness(125%) saturate(115%) contrast(120%) opacity(60%); transform: rotate(14deg); z-index: -200; margin: -35px auto 10px  auto; display: block; border-radius: 5px;
-animation: blinker 5.0s step-start infinite;
 
+#dion  {     width: 35px;  height: 30px;filter: brightness(115%) saturate(110%) contrast(115%) opacity(70%); transform: rotate(-5deg); z-index: -200; margin: -35px auto 10px  auto; display: block; 
 }
+
 
 
 @keyframes blinker {
@@ -790,7 +799,19 @@ color: black;margin-left: 10px;
 
 
 
+#max{
+  /* The image used */
+  /* Used if the image is unavailable */
+/* You must set a specified height */
+ 
 
+
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+filter:opacity(20%); display: block; margin: auto auto auto auto; z-index: -200; border-radius:10px;
+width: 325px; height: 370px;
+}
 
 
 

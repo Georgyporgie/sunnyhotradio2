@@ -101,10 +101,10 @@ body {
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
     
-  <a href="https://sunnyhotradio.com/Index.html">HOME<img id= "dwarf"></a>
+  <a href="https://sunnyhotradio.netlify.app/Index.html">HOME<img id= "dwarf"></a>
 
     <a href="https://sunnyrockradio.com/Index.html">SUNNY <em>ROCK</em> RADIO<img id= "lin"></a>
-  <a href="https://sunnyhotradio.com/Index.html">SUNNY <em>DANCE</em> RADIO<img id= "linger"></a>
+  <a href="https://sunnyjazzradio.com/Index.html">SUNNY <em>JAZZ</em> RADIO<img id= "linger"></a>
 
 
 
@@ -343,7 +343,7 @@ margin: auto auto auto auto; display: block;
 <img id= "playlist">
 
 <div>
-<ul  id="track-list"></ul>
+<ul  id="track-list-container"></ul>
 
 </div>
 <div>
@@ -445,7 +445,7 @@ margin: auto auto auto auto; display: block;
 
 
 <div>
-<h5 class="inch"><em>Sunny Jazz<span class="dark"> Radio</span> Stars</em></h5>
+<h5 class="inch"><em>Sunny Dance<span class="dark"> Radio</span> Stars</em></h5>
  <br>
 <br>
 <img id="ion">
@@ -456,11 +456,15 @@ margin: auto auto auto auto; display: block;
 <br>
 
 
-<img  id= "dance"> 
+<img  id= "travolta"> 
+
+<br>
+<br>
+<br>
+<br>
 
 
-
-
+<img id= "max">
 
 
 
@@ -485,8 +489,8 @@ margin: auto auto auto auto; display: block;
 
 
  <div>
-<h5 class="inch"><em>Wikipedia</em></h5>
-<iframe class= "frame" src="https://nl.wikipedia.org/wiki/Peggy_Lee"></iframe>
+<h5 class="inch"><em>Amsterdam Nightlife</em></h5>
+<iframe class= "frame" src="https://www.uitzinnig.nl/8/249/amsterdam.aspx"></iframe>
 </div>
  <br>
 <br>
@@ -649,7 +653,13 @@ img.src = 'images/alexander.png';
 
 
 
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("max");
 
+//Set the src property of our element to the new image URL
+img.src = 'images/janelle monae.jpg';
+</script>
 
 
 
@@ -745,10 +755,10 @@ img.src = 'images/sunny stars.png';
 
 <script>
 //Get our img element by using document.getElementById
-var img = document.getElementById("dance");
+var img = document.getElementById("travolta");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/jazz divas.png';
+img.src = 'images/SG Lewis.jpg';
 </script>
 
 
@@ -849,7 +859,7 @@ img.src = 'images/record3.png';
 var img = document.getElementById("dion");
 
 //Set the src property of our element to the new image URL
-img.src = 'images/red star3.png';
+img.src = 'images/connection.gif';
 </script>
 
 
