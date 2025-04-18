@@ -22,9 +22,11 @@ function myFunction1() {
 
 
 
+
+
 function update() {
  var el = document.querySelector(
-  ".conten, .more");
+  ".content, .more");
  el.innerHTML =
   "A beautiful mix of new Dance songs<br> and older Dance & Disco classics!";
 };
@@ -33,7 +35,7 @@ function update() {
 
 function update2() {
  var el = document.querySelector(
-  ".inhou, .meer");
+  ".inhoud, .meer");
  el.innerHTML =
   "A beautiful mix of new Rock & Pop songs<br> to help you through the day!";
 };
@@ -43,7 +45,7 @@ function update2() {
 
 function update3() {
  var el = document.querySelector(
-  ".jazzy, .less");
+  ".jazzex, .minder");
  el.innerHTML =
   "A beautiful mix of Soul & Classicjazz songs<br> to help you through the day!";
 };
