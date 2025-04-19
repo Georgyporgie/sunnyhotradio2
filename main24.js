@@ -34,9 +34,9 @@ function getCurrentTimeCategory() {
   if (currentHour >= 9 && currentHour < 12) {
     return "morning"; // Corrected order
   } else if (currentHour >= 12 && currentHour < 18) {
-    return "afternoon";
-  } else if (currentHour >= 18 && currentHour < 21) {
     return "evening-late";
+  } else if (currentHour >= 18 && currentHour < 21) {
+    return "afternoon";
 
 
 
@@ -343,7 +343,7 @@ let trackList = [
     name: "   Creep (1994)  ",
     artist: "TLC ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/TLC - Creep.mp3",
+    path: "https://sunnyhotradio.com/muziek/oldies07/TLC - Creep.mp3",
   timeCategory: "afternoon"
 },
 
@@ -355,7 +355,7 @@ let trackList = [
     name: "  Whatta Man (1993)  ",
     artist: "Salt N Pepa ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Salt N Pepa - Whatta Man.mp3",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Salt N Pepa - Whatta Man.mp3",
   timeCategory: "afternoon"
 },
 
@@ -380,7 +380,7 @@ let trackList = [
     name: "  Lucky Star (2000)  ",
     artist: "Superfunk ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Superfunk - Lucky Star.mp3",
+    path: "https://sunnyhotradio.com/muziek/oldies07/Superfunk - Lucky Star.mp3",
  timeCategory: "afternoon"
 },
 
@@ -391,7 +391,7 @@ let trackList = [
     name: "   No Scrubs (1999)  ",
     artist: "TLC ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/TLC - No Scrubs.mp3",
+    path: "https://sunnyhotradio.com/muziek/oldies07/TLC - No Scrubs.mp3",
   timeCategory: "afternoon"
 },
 
@@ -543,6 +543,109 @@ let trackList = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    name: "Just For You",
+    artist: "Sunny Ship",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/Sunny radio snippet3.mp3",
+  timeCategory: "afternoon"
+
+},
+
+ 
+
+{
+     name: "Welcome!",
+    artist: "Listen Live Sunny Dance Radio",
+    image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "muziek/jingles/sunny dance jingle.mp3",
+     timeCategory: "afternoon"
+},
+
+
+{
+    name: "  Another Man (1984)",
+    artist: "Barbara Mason",
+   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
+    path: "path: "https://sunnyhotradio.com/muziek/oldies07/Barbara Mason - Another Man.mp3",
+    timeCategory: "afternoon"
+},
+
+
+
 {
     name: "How We Do It",
     artist: "Sean Paul & Pia Mia",
@@ -552,13 +655,6 @@ let trackList = [
 },
 
 
-{
-    name: "  Another Man (1984)",
-    artist: "Barbara Mason",
-   image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Barbara Mason - Another Man.mp3",
-    timeCategory: "afternoon"
-},
 
 
 {
@@ -585,7 +681,7 @@ let trackList = [
     name: " Gimme That Funk (1978)",
     artist: "Dennis Coffey  ",
     image: "https://i.ibb.co/z6h40FW/saturday-night-fever-1977.png",
-    path: "muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
+    path: "path: "https://sunnyhotradio.com/muziek/oldies07/Dennis Coffey - Gimme That Funk (1978).mp3",
     timeCategory: "afternoon"
 
 
@@ -731,53 +827,6 @@ let trackList = [
     path: "https://sunny-dancemusic02.netlify.app/Saweetie - Closer.mp3",
   timeCategory: "afternoon"
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
